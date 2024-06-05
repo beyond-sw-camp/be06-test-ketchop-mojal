@@ -4,6 +4,7 @@ public enum BaseResponseMessage {
     // 요청 성공 1000
     // 공통
     REQUEST_SUCCESS(true, 1000, "요청이 정상적으로 처리되었습니다."),
+    REQUEST_FAIL_WHAT(true, 1000, "요청이 실패했습니다."),
     REQUEST_FAIL_SELECT(false, 300, "조회실패."),
     REQUEST_FAIL_MEMBER(false, 500, "회원이 아닙니다."),
     REQUEST_FAIL_EMPTY_LOGIN(false, 600, "로그인 정보가 없습니다."),
