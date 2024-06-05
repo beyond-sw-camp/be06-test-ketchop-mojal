@@ -26,6 +26,9 @@ public enum BaseResponseMessage {
     MEMBER_REGISTER_FAIL_PLUS_POWER(false, 2111, "재능을 한 개 이상 선택해주세요."),
     MEMBER_REGISTER_FAIL_MEMBER_ALREADY(false, 2112, "이미 가입된 회원입니다."),
     // 로그인
+    MEMBER_LOGIN_FAIL(false, 2201, "로그인에 실패하였습니다."),
+    MEMBER_LOGIN_FAIL_EMAIL_EMPTY(false, 2202, "이메일을 입력해주세요."),
+    MEMBER_LOGIN_FAIL_PASSWORD_EMPTY(false, 2203, "비밀번호를 입력해주세요."),
     // 로그아웃
     // 아이디 찾기
     // 비밀번호 찾기
