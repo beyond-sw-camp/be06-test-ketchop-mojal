@@ -45,7 +45,7 @@ public class CreateBoardServlet extends HttpServlet {
         // 게시글 작성 Dao 실행 전에 데이터확인
         Integer result = 0;
 
-        if(Objects.equals(dto.getTitle(), "")) {
+        if(dto.getTitle() == null) {
             result = 2;
         }
         if(dto.getContents() == null) {
