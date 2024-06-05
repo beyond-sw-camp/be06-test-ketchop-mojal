@@ -1,12 +1,12 @@
 package board.response;
 
 public class GetBoardRes {
-    Integer idx;
-    String title;
-    String contents;
-    Integer max_capacity;
-    Boolean post_type;
-    Integer user_idx;
+    private Integer idx;
+    private String title;
+    private String contents;
+    private Integer max_capacity;
+    private Boolean post_type;
+    private Integer user_idx;
 
     public GetBoardRes(Integer idx, String title, String contents, Integer max_capacity, Boolean post_type, Integer user_idx) {
         this.idx = idx;
